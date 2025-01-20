@@ -54,7 +54,7 @@
   - Elements are aligned as per design.
 - **Responsiveness**:
   - Mobile: Cards will displayed in two columns.
-  - Medium: Cards will displayed in three columns.
+
 
 ### 5. Footer
 
