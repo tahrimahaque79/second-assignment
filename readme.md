@@ -1,5 +1,6 @@
 ### WELCOME TO ASSIGNMENT-002
-
+🚩Notice
+**⚠️ Hover effect on Arrow Button at Standard Curriculam section is optional**
 # <img width=30 src="./assets/logo.png"/> Kids-School
 
 ## **📅 Deadline For 60 marks**: 22th January , 2025 ( 11:59 pm ⏱️)
@@ -40,7 +41,7 @@
 - **Cards**:
   - Three center-aligned cards with an image, heading, and "Read More" link.
   - Unique gradient backgrounds for each card.
-- **Arrow Button Group**: Center-aligned arrow buttons with some hovering effect.
+- **Arrow Button Group**: Center-aligned arrow buttons.Dont need any Hover effect. Its totally optional🚩
 - **Mobile Responsiveness**:
   - Cards will display in a single column, will took more than 90% of the device width.
 
