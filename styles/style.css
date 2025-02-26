@@ -7,3 +7,101 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* shared styles */
+  .display-flex{
+    display: flex;
+  }
+ 
+  .btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 10px 60.5px;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 12px;
+    border: none;
+  }
+  .bg-plain{
+    background-color: #F7F7F7;
+  }
+
+  /* nav bar related styles */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.school{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #111111;
+}
+.nav-link-one{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FEA301;
+}
+.nav-link-two{
+    font-weight: 400;
+    font-size: 20px;
+    color: #01ACFD;
+}
+.nav-link-three{
+    font-weight: 400;
+    font-size: 20px;
+    color: #05D4DF;
+}
+.nav-link-four{
+    font-weight: 400;
+    font-size: 20px;
+    color: #5D58EF;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar, .banner{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* banner section related styles */
+.title{
+  font-weight: 700;
+  font-size: 3.5rem;
+  
+}
+.orange{
+  color: #FEA301;
+}
+.blue{
+  color:#01ACFD ;
+
+}
+.title-description{
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #111111;
+  margin-bottom: 24px;
+}
+.btn-secondary{
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  height: 2.5rem;
+  width: 9rem;
+  border-radius: 12px;
+  border: none;
+
+}
+.banner{
+  justify-content: space-between;
+  
+}
+  
+
+
+ 
