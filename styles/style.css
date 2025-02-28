@@ -16,16 +16,19 @@
     background-color: #FF900E;
     color: #FFFFFF;
     padding: 10px 60.5px;
-    height: 2.5rem;
-    width: 9rem;
-    border-radius: 12px;
+     border-radius: 12px;
     border: none;
+    text-align: center;
   }
   .bg-plain{
     background-color: #F7F7F7;
   }
 
   /* nav bar related styles */
+
+  .nav-image{
+    width: 100%;
+  }
   .navbar{
     justify-content: space-between;
     align-items: center;
@@ -67,6 +70,12 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+#horizontal{
+  background-color: #FEA301;
+}
+#horizontal, .hamburger-icon{
+  display: none;
+}
 
 /* banner section related styles */
 .title{
@@ -88,18 +97,49 @@
   margin-bottom: 24px;
 }
 .btn-secondary{
-  background-color: #111111;
+ background-color: #111111;
   color: #FFFFFF;
   padding: 10px 47px;
-  height: 2.5rem;
-  width: 9rem;
   border-radius: 12px;
   border: none;
+  text-align: center;
 
 }
+
 .banner{
   justify-content: space-between;
   
+}
+.banner-image{
+  width: 100%;
+}
+
+
+/* responsive media query for small device */
+
+@media screen and (max-width: 576px) {
+  .navbar
+  .nav-links, 
+  .banner{
+    flex-direction: column;
+  }
+  #horizontal, .hamburger-icon{
+    display: block;
+  }
+
+  .nav-links, .school, .btn-primary{
+    display: none;
+  } 
+  .navbar, .banner{
+    margin: 0 auto;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    
+  }
+
 }
   
 
