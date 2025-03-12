@@ -451,20 +451,89 @@ stroke-width: 0.94px; */
   background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
   
+  
 }
 .background-image-three{
-  background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(254, 163, 1, 0.35));
+  background-image:  linear-gradient(to bottom,rgba(255, 255, 255, 1), rgba(217, 217, 217, 1), rgba(254, 163, 1, 0.35));
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.background-image-four{
-  background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 1),  rgba(255, 255, 255, 1));
 
-}
 .btn-alignment{
+  padding-top: 80px;
+  padding-bottom: 60px;
   align-items: center;
+ 
+}
+
+
+/* footer section related styles */
+
+.bg-footer{
+  background-color: #01ACFD;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer-logo{
+  padding-left: 140px;
+  padding-top: 123px;
+  
+}
+
+.footer-title{
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #FFFFFF;
+  padding-left: 10.7px;
+  padding-top: 123px;
+  
 }
  
+.footer-description{
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  padding-left: -147px;
+  padding-bottom: 179px;
+}
+.about-school{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  padding-left: 173px;
+  padding-top: 90px;
+}
+.about{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 173px;
+  
+}
+.top{
+  padding-top: -20px;
+}
+.space{
+  padding-top: 20px;
+}
 
+.keep-touch{
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  padding-left: 143px;
+  padding-top: 90px;
 
+}
+.social-media{
+  padding-left: 143px;
+}
+
+footer ul li{
+  list-style: none;
+  
+}
 
 
 /* responsive media query for small device */
