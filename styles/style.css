@@ -539,9 +539,9 @@ footer ul li{
 /* responsive media query for small device */
 
 @media screen and (max-width: 576px) {
-  .navbar
+  .navbar,
   .nav-links, 
-  .banner{
+  .banner, .box-images{
     flex-direction: column;
   }
   #horizontal, .hamburger-icon{
@@ -563,6 +563,16 @@ footer ul li{
   .inline{
     text-align: left;
   }
+
+  .image-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    max-width: 390px;
+  }
+  .card-size-one{
+    display: none;
+  }
+  
 
 }
   
